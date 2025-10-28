@@ -74,13 +74,13 @@ Morelzy.global
 
 Created and linked using **Group Policy Management Console (gpmc.msc)**:
 
-- **GPO Name**: `DisableRemovableDrives`
+- **GPO Name**: `DisableShutdownAndRestart`
 - **Linked to**: OU: GHANA
 - **Policy Configured**:
-  - `Computer Configuration` > `Administrative Templates` > `System` > `Removable Storage Access`
-  - Set **"All Removable Storage classes: Deny all access"** to **Enabled**
+  - `Computer Configuration` > `Administrative Templates` > `Start Menu and task bar` > `Remove and prevent access to shut down, restart, sleep and hibernate comands`
+  - Set **" Remove and prevent access to shut down, restart, sleep and hibernate comands "** to **Enabled**
 
-Result: USB and external drives are disabled for all users in the **GHANA Accounts OU**.
+Result: Access to shutdown, restart or sleep is disabled for all users in the **GHANA Accounts OU**.
 
 ---
 
@@ -89,13 +89,13 @@ Result: USB and external drives are disabled for all users in the **GHANA Accoun
 - AD Domain Structure
 - GPO Editor Screenshot
 - PC joined to domain
-- Result of denied USB access
+- Result of denied shutdown/restart access
 
 ---
 
 ## Key Takeaways
 
-- - Gained practical experience with Windows Server roles and domain setup
+ - Gained practical experience with Windows Server roles and domain setup
 - Implemented centralized access control using Group Policy
 - Learned how to structure users and departments with OUs
 - Applied IAM concepts in a real-world simulated environment
