@@ -1,7 +1,7 @@
 # Active Directory Simulation – Morelzy Global
 
 This project is the deployment of a Windows Server Domain Controller (Active Directory) for a company called MORELZY GLOBAL. It includes domain setup, client configuration, OU design, group policies, and access control in an enterprise environment.
-
+Under the NIST CSF function [Protect (PR)] & the ISO 27001 Annex A control [A.5.15–A.5.23 Access Control Management], this implements centralized identity, GPOs, and least-privilege enforcement
 ---
 
 ## Company Structure
